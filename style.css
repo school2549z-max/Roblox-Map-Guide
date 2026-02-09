@@ -1,70 +1,133 @@
-body{
-  margin:0;
-  font-family:Arial, sans-serif;
-  background:#f3f4f6;
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-  background:#111827;
-  padding:15px;
+/* ===== BODY ===== */
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
 }
 
-nav{
-  display:flex;
-  justify-content:center;
-  gap:20px;
+/* ===== HEADER ===== */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
 }
 
-nav a{
-  color:white;
-  text-decoration:none;
-  font-weight:bold;
+header h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #222;
 }
 
-nav a:hover{
-  color:#38bdf8;
+/* ===== NAV ===== */
+nav {
+  margin-top: 10px;
+  text-align: center;
 }
 
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
 }
 
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
+nav a:hover {
+  color: #000;
 }
 
-.card{
-  background:white;
-  border-radius:10px;
-  box-shadow:0 2px 8px rgba(0,0,0,.15);
-  overflow:hidden;
+/* ===== MAIN ===== */
+main {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
-.card img{
-  width:100%;
-  height:160px;
-  object-fit:cover;
+/* ===== INTRO ===== */
+.intro {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
 }
 
-.card div{
-  padding:15px;
+/* ===== MAP GRID ===== */
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
 }
 
-.card a{
-  display:inline-block;
-  margin-top:10px;
-  color:#2563eb;
-  font-weight:bold;
+/* ===== MAP CARD ===== */
+.map-card {
+  background: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
 }
 
-footer{
-  text-align:center;
-  padding:20px;
-  color:#555;
+.map-card:hover {
+  transform: translateY(-4px);
 }
 
+.map-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.map-card .content {
+  padding: 15px;
+}
+
+.map-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.map-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.map-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+/* ===== ADS ===== */
+.ad-box {
+  background: #ffffff;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #1a73e8;
+  text-decoration: none;
+  margin: 0 8px;
+}
 
