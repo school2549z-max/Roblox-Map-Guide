@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Simulator Roblox</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+  <a href="index.html">หน้าแรก</a>
+  <a href="maps.html">รวมแมพ</a>
+  <a href="pvp.html">PvP</a>
+  <a href="adventure.html">Adventure</a>
+  <a href="simulator.html">Simulator</a>
+  <a href="about.html">เกี่ยวกับเว็บ</a>
+</nav>
+</header>
+
+<div class="container">
+<h1>แมพ Simulator</h1>
+
+<div class="grid">
+
+<div class="card">
+  <img src="images/sim1.jpg">
+  <div>
+    <h3>1. Pet Simulator X</h3>
+    <a href="https://www.roblox.com/games/6284583030" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim2.jpg">
+  <div>
+    <h3>2. Bee Swarm Simulator</h3>
+    <a href="https://www.roblox.com/games/1537690962" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim3.jpg">
+  <div>
+    <h3>3. Anime Fighters</h3>
+    <a href="https://www.roblox.com/games/6299805723" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim1.jpg">
+  <div>
+    <h3>4. Mining Simulator</h3>
+    <a href="https://www.roblox.com/games/1417427737" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim2.jpg">
+  <div>
+    <h3>5. Clicker Simulator</h3>
+    <a href="https://www.roblox.com/games/7560156054" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim3.jpg">
+  <div>
+    <h3>6. Weapon Fighting Simulator</h3>
+    <a href="https://www.roblox.com/games/8554378337" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim1.jpg">
+  <div>
+    <h3>7. Gym Training Simulator</h3>
+    <a href="https://www.roblox.com/games/17450551531" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim2.jpg">
+  <div>
+    <h3>8. Rebirth Champions X</h3>
+    <a href="https://www.roblox.com/games/8540346411" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="images/sim3.jpg">
+  <div>
+    <h3>9. Strongman Simulator</h3>
+    <a href="https://www.roblox.com/games/6766156863" target="_blank" rel="nofollow">▶ เล่น</a>
+  </div>
+</div>
+
+</div>
+</div>
+
+<footer>© 2026 Roblox Map Guide</footer>
+</body>
+</html>
