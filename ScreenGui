@@ -1,0 +1,23 @@
+
+Zhao
+local gui = script.Parent
+
+local page1 = gui:WaitForChild("Page1")
+local page2 = gui:WaitForChild("Page2")
+
+local toPage2 = page1:WaitForChild("ToPage2")
+local back = page2:WaitForChild("Back")
+
+-- ค่าเริ่มต้น
+page1.Visible = true
+page2.Visible = false
+
+toPage2.MouseButton1Click:Connect(function()
+	page1.Visible = false
+	page2.Visible = true
+end)
+
+back.MouseButton1Click:Connect(function()
+	page2.Visible = false
+	page1.Visible = true
+end)
